@@ -1,0 +1,68 @@
+{
+    "smashup": [
+        {
+            "set": "Core",
+            "factions": [
+                "pirates",
+                "ninja",
+                "zombies",
+                "robots",
+                "dinosaurs",
+                "wizards",
+                "tricksters",
+                "aliens"
+            ]
+        },
+        {
+            "set": "Level 9000",
+            "factions": [
+                "killer plants",
+                "ghosts",
+                "steampunks",
+                "bear cavalry"
+            ]
+        },
+        {
+            "set": "Cthulu",
+            "factions": [
+                "cthulhu cultist",
+                "elder things",
+                "innsmouth",
+                "miskatonic university"
+            ]
+        },
+        {
+            "set": "Sci-Fi",
+            "factions": [
+                "time travelers",
+                "cyborg apes",
+                "super spies",
+                "shapshifters"
+            ]
+        },
+        {
+            "set": "Geeky Box",
+            "factions": [
+                "geeks"
+            ]
+        },
+        {
+            "set": "Monster Smash",
+            "factions": [
+                "vampires",
+                "mad scientists",
+                "giant ants",
+                "werewolves"
+            ]
+        },
+        {
+            "set": "Pretty",
+            "factions": [
+                "fairies",
+                "mythic horses",
+                "kitty cats",
+                "princesses"
+            ]
+        }
+    ]
+}
