@@ -1,0 +1,23 @@
+{
+  "name": "smashuprandomizer",
+  "version": "1.0.0",
+  "description": "Smash Up Randomizer for the fun game",
+  "main": "smashUpServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannybui/SmashUpRandomizer.git"
+  },
+  "keywords": [
+    "smash",
+    "up"
+  ],
+  "author": "Danny Bui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannybui/SmashUpRandomizer/issues"
+  },
+  "homepage": "https://github.com/dannybui/SmashUpRandomizer#readme"
+}

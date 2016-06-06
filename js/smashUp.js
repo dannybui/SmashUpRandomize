@@ -1,5 +1,5 @@
                 $(function () {
-                    $.getJSON("/smashup/js/smashup.json", function (data) {
+                    $.getJSON("/js/smashup.json", function (data) {
                         faction = '';
                         for (var d in data.smashup) {
                             if (data.smashup[d].set != undefined) {
@@ -72,7 +72,7 @@
                 });
 
 
-                // Regenerate 
+                // Regenerate
 
                 $('#playerContent').on('click', '#returnButton', function () {
                     location.reload(true);
