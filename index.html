@@ -1,41 +1,53 @@
 <html>
+
 <head>
-        <title>Smash Up Randomizer</title>
-        <meta name="description" content="Smash Up Randomizer">
-        <link rel="stylesheet" type="text/css" href="/css/foundation.min.css">
+    <title>Smash Up Randomizer</title>
+    <meta name="description" content="Smash Up Randomizer">
+    <link rel="stylesheet" type="text/css" href="/css/foundation.min.css">
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <!-- 2. Configure SystemJS -->
+    <script src="systemjs.config.js"></script>
+    <script>
+        System.import('app').catch(function(err) {
+            console.error(err);
+        });
+    </script>
 </head>
 
 <body>
-        <div class="row" align="center">
-            <h1>SmashUp Randomizer!</h1>
-            <p>Choose the number of players and which expansion you are playing with.
-                <br/> My group and I banned certain factions because of how broken it is so I've also included a ban list.</p>
-            <div id="randomizeForm">
-                <span id="numPlayer">Number of Players:</span>
-                <select id="playerCount">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                </select>
-                <br/>
-                <div id="playerContent">Player 1 Name:
-                    <input class="playerName" type="text" />
-                </div>
+    <div class="row" align="center">
+        <h1>SmashUp Randomizer!</h1>
+        <p>Choose the number of players and which expansion you are playing with.
+            <br/> My group and I banned certain factions because of how broken it is so I've also included a ban list.</p>
+        <div id="randomizeForm">
+            <span id="numPlayer">Number of Players:</span>
+            <select id="playerCount">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+            </select>
+            <br/>
+            <div id="playerContent">Player 1 Name:
+                <input class="playerName" type="text" />
             </div>
-            <div class="row" id="factionList">
-            </div>
-            <div class="row">
-                <input type="button" name="random" value="Randomize" id="randomButton" />
-            </div>
-
         </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" type="text/javascript"></script>
-        <script src="/js/smashUp.js"></script>
+        <div class="row" id="factionList">
+        </div>
+        <div class="row">
+            <input type="button" name="random" value="Randomize" id="randomButton" />
+        </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" type="text/javascript"></script>
+    <script src="/js/smashUp.js"></script>
 </body>
 
 </html>
